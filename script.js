@@ -1,21 +1,20 @@
 
-const container = document.querySelector('.container');
+const container = document.querySelector(".container");
+console.log(container);
 
-function getInputValue(){
-    // var input = document.getElementById("userInput").value
-    makeDivChildren()// add call to function to pull out input
-}
+const btn = document.querySelector(".btn");
+console.log(btn);
 
-function makeDivChildren(){
+//btn.addEventListener('click',() => {
+    // once:true;
+    //makeRowDivs();
+//});
+
+function makeRowDivs() {
     for (count = 0; count < 16; count++){
         const content = document.createElement('div');
         content.classList.add('content');
         content.textContent = `${count+1}`;
         container.appendChild(content);
-        // deleteDiv(e);
     }
 }
-
-
-// function appendChildrenDiv(e);
-
