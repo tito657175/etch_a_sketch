@@ -11,7 +11,7 @@ console.log(btn);
 //});
 
 function makeRowDivs() {
-    for (count = 0; count < 16; count++){
+    for (count = 0; count < 32; count++){
         const content = document.createElement('div');
         content.classList.add('content');
         content.textContent = `${count+1}`;
