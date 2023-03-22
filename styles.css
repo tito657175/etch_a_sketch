@@ -1,3 +1,11 @@
+body {
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .container{
     border-color: rgb(154, 0, 0);
@@ -18,9 +26,10 @@
     background-color: #ddd;
 }
 
-
-
 .btn {
     font-size: large;
 }
 
+.content:hover {
+    background-color: green;
+}
